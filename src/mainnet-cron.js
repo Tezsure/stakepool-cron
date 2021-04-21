@@ -26,7 +26,7 @@ const MainnetCron = async () => {
                 MAINNET_CONTRACT_ADDRESS
             )
             .send();
-        console.log('----------- Mainnet operation --------', operation);
+        // console.log('----------- Mainnet operation --------', operation);
         await operation.confirmation(1).then(() => operation.opHash);
     } catch (error) {
         console.log('----------- Mainnet Error --------', error);

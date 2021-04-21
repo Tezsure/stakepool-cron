@@ -26,7 +26,6 @@ const TestnetCron = async () => {
                 TESTNET_CONTRACT_ADDRESS
             )
             .send();
-        console.log('----------- Testnet operation --------', operation);
         await operation.confirmation(1).then(() => operation.opHash);
     } catch (error) {
         console.log('----------- Testnet Error --------', error);
