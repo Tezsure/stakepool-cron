@@ -1,0 +1,23 @@
+{
+  "name": "stakepool-cron-latest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.98.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.98.0",
+    "@serverless-stack/cli": "0.12.1",
+    "@serverless-stack/resources": "0.12.1",
+    "@taquito/signer": "^8.1.1",
+    "@taquito/taquito": "^8.1.1",
+    "dotenv": "^8.2.0"
+  }
+}

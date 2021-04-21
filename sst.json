@@ -1,0 +1,7 @@
+{
+  "name": "stakepool-cron-latest",
+  "stage": "dev",
+  "region": "ap-south-1",
+  "timeout": 3600,
+  "lint": true
+}
